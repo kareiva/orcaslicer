@@ -173,10 +173,7 @@ option(BUILD_TESTS       "Build unit tests" OFF)
 option(ORCA_TOOLS       "Build Orca tools" OFF)
 
 if (FLATPAK)
-#     set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=gnu++20")
-#     set(SLIC3R_PCH OFF CACHE BOOL "" FORCE)
-#     set(SLIC3R_FHS ON CACHE BOOL "" FORCE)
-#     set(BUILD_TESTS OFF CACHE BOOL "" FORCE)
+    set(SLIC3R_FHS ON CACHE BOOL "" FORCE)
     set(SLIC3R_DESKTOP_INTEGRATION OFF CACHE BOOL "" FORCE)
 endif ()
 

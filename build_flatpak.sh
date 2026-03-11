@@ -204,14 +204,14 @@ fi
 
 # Check if required runtime is available
 if ! flatpak info --user org.gnome.Platform//49 &> /dev/null; then
-    echo -e "${RED}Error: GNOME Platform 48 runtime is not installed.${NC}"
+    echo -e "${RED}Error: GNOME Platform 49 runtime is not installed.${NC}"
     echo "Run with -i flag to install it automatically, or install manually:"
     echo "flatpak install --user flathub org.gnome.Platform//49"
     exit 1
 fi
 
 if ! flatpak info --user org.gnome.Sdk//49 &> /dev/null; then
-    echo -e "${RED}Error: GNOME SDK 48 is not installed.${NC}"
+    echo -e "${RED}Error: GNOME SDK 49 is not installed.${NC}"
     echo "Run with -i flag to install it automatically, or install manually:"
     echo "flatpak install --user flathub org.gnome.Sdk//49"
     exit 1

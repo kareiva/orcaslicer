@@ -113,5 +113,7 @@ fi
 %{_datadir}/icons/hicolor/32x32/apps/OrcaSlicer.png
 
 %changelog
-* Thu Mar 19 2026 OrcaSlicer Contributors <noreply@github.com> - 2.3.2-1
+* Mon May 25 2026 Simonas Kareiva <skareiva@redhat.com> - 2.4.0-1
+- Update .desktop file to use reverse-DNS name com.orcaslicer.OrcaSlicer.desktop
+* Thu Mar 19 2026 Simonas Kareiva <skareiva@redhat.com> - 2.3.2-1
 - Initial RPM packaging for Fedora

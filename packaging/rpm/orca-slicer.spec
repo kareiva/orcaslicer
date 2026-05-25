@@ -76,8 +76,8 @@ EOF
 chmod 0755 %{buildroot}%{_bindir}/orca-slicer
 
 # Desktop entry
-install -Dm644 %{src_artifacts}/src/dev-utils/platform/unix/OrcaSlicer.desktop \
-    %{buildroot}%{_datadir}/applications/OrcaSlicer.desktop
+install -Dm644 %{src_artifacts}/src/dev-utils/platform/unix/com.orcaslicer.OrcaSlicer.desktop \
+    %{buildroot}%{_datadir}/applications/com.orcaslicer.OrcaSlicer.desktop
 
 # Icons (multiple sizes)
 install -Dm644 %{src_artifacts}/resources/images/OrcaSlicer_192px.png \
@@ -106,7 +106,7 @@ fi
 %files
 %{_bindir}/orca-slicer
 %{install_dir}/
-%{_datadir}/applications/OrcaSlicer.desktop
+%{_datadir}/applications/com.orcaslicer.OrcaSlicer.desktop
 %{_datadir}/icons/hicolor/192x192/apps/OrcaSlicer.png
 %{_datadir}/icons/hicolor/128x128/apps/OrcaSlicer.png
 %{_datadir}/icons/hicolor/64x64/apps/OrcaSlicer.png
